@@ -1,0 +1,13 @@
+.color{
+    color:darkgreen;
+}
+.fontName{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.line-height{
+    height:25px;
+}
+.left{
+    float: left;
+    padding: 0 20px 20 px 0;
+}
