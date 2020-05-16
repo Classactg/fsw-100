@@ -1,18 +1,102 @@
+body {
+    background-color: beige;
+    
+}
+#box1 {
+    background-color: chartreuse;
+    width: 175px;
+}
+
 #box1:hover {
     background-color: lightseagreen;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    height: 85px;
+    width: 175px;
+    flex-grow: 50px;
+    border: black;
+    border-width: 5px;
+    margin-top: 0vmin;
+}
+#box2{
+    background-color: deeppink;
+    width: 200px;
 }
 #box2:hover {
-    background-color: indigo;
+    background-color: gray;
+    transition-property: background-color;
+    transition-duration: 1s;
+    height: 78px;
+    width: 200px;
+    border: black;
+    border-width: 5px;
+    border-radius: 50vmin;
+    margin-left: 0;
+}
+#box3{
+    background-color: navy;
+    width: 240px;
 }
 #box3:hover {
-    background-color: chartreuse;
+    background-color: rgb(255, 0, 0);
+    transition-property: background-color;
+    transition-duration: 1s;
+    height: 100px;
+    width: 240;
+    border: black;
+    border-width: 5px;
+    border-radius: 50vmin;
+    margin-right: 30%;
+    padding: 10px;
+}
+#box4 {background-color:whitesmoke;
+    width: 480px;
+    height: 120px;
+
 }
 #box4:hover {
     background-color: orangered;
+    transition-property: background-color;
+    transition-duration: 1s;
+    height: 120px;
+    width: 480px;
+    border: black;
+    border-width: 5px;
+    border-radius: 30%;
+    max-height: 20fr;
+    text-decoration: orangered;
+    opacity: 50%;
+}
+#box5 {background-color: black;
+    width: 460px; 
+    height: 140px;
 }
 #box5:hover {
     background-color: yellow;
+    transition-property: background-color;
+    transition-duration: 1s;
+    height: 140px;
+    width: 460px;
+    border: black;
+    border-width: 0px;
+    border-radius: 50vmin;
+    margin: 0%;
+}
+#box6 {background-color: peachpuff;
+    width: 370px;
+    height: 108px;
+
 }
 #box6:hover {
     background-color: blue;
+    transition-property: background-color;
+    transition-duration: 1s;
+    height: 108px;
+    width: 370px;
+    border: black;
+    border-width: 5px;
+    border-radius: 50vmax;
+    margin: 3%;;
+    position: relative;
 }
