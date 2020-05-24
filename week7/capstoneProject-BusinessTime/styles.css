@@ -1,0 +1,53 @@
+body{
+  font-family: 'Kelly Slab', cursive;
+}
+nav {
+    overflow: hidden;
+    background-color: midnightblue;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+  nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  nav a:hover {
+    background:lightskyblue;
+    color: black;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 
+25% 25% 25% 25%;
+grid-gap: 20px;
+}
+  #content{background-color: darkslateblue;
+    transition-property: delay;
+  }
+@media only screen and 
+(min-width: 
+768px){
+} 
+    .content {
+    grid-column: span 2;
+}
+.content{
+  grid-column: span 4;
+  background-color:lightskyblue;
+  transition-delay: 1s;  
+}
+
+  
+
+  
+ 
+ 
+ 
+ 
+ 
